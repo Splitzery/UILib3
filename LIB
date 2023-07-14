@@ -3265,7 +3265,7 @@ end
 
 end
     local window = objectGenerator.new("Window")
-    window.Parent = GUI
+    window.Parent = SplitHub
 
     --// make UI draggable
     -->> LogoHitbox
