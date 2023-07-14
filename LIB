@@ -3260,9 +3260,7 @@ elseif game:GetService("CoreGui"):FindFirstChild('RobloxGui') then
 else
 game.Players.LocalPlayer:Kick("Trash Exploit")
 end
-
-
-
+end
 end
     local window = objectGenerator.new("Window")
     window.Parent = SplitHub
