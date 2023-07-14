@@ -3262,6 +3262,7 @@ game.Players.LocalPlayer:Kick("Trash Exploit")
 end
 end
 end
+end
     local window = objectGenerator.new("Window")
     window.Parent = SplitHub
 
