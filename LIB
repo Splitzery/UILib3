@@ -3933,6 +3933,14 @@ function UILibrary.Window:Category(name, icon)
     )
 end
 
+
+function ToggleUI()
+if SplitHub.Enabled == true then
+SplitHub.Enabled = false else
+SplitHub.Enabled = true
+end
+end
+
 function UILibrary.Category:Button(name, icon)
     local contentholder = self.ContentHolder
     local button = objectGenerator.new("CategoryButton")
